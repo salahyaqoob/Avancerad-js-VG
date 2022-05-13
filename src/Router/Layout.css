@@ -1,0 +1,34 @@
+.layout{
+    width: 100%;
+}
+
+
+.layout header{
+    height: 75px;
+    background-color:gray ;
+    display: flex;
+    
+    align-items: center;
+    justify-items: center;
+    justify-content:space-around;
+}
+
+.layout .list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    margin-right: 1rem;
+
+}
+
+.layout li{
+
+    color: #a2cbec;
+    font-size: large;
+    font-weight:bold;
+    text-shadow: 1px 1px;
+    
+  
+}

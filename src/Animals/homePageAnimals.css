@@ -1,0 +1,30 @@
+.animals{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.animals .animals-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: cornflowerblue;
+    
+
+}
+.animals .animals-container h3{
+    font-size: x-small;
+    text-align: center;
+}
+
+.animals .animals-container .img-container{
+    width: 65%;
+    
+}
+
+.animals .animals-container .img-container img{
+    width: 150px;
+    height: 100px;
+}
+
